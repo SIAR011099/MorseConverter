@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
+public class MorseConverter {
     private static Map<Character, String> dictionary = new HashMap<Character, String>() {
         {
             put('A', ".-");
